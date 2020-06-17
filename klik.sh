@@ -167,7 +167,7 @@ printf "\e[1;92m[\e[0m+\e[1;92m] Share \e[0m\e[1;77mHTTPS\e[0m\e[1;92m link:\e[0
 start() {
 
 if [[ ! -d images/ ]]; then
-mkdir images
+cd /sdcard/mkdir images
 fi
 
 if [[ -e sendlink ]]; then
